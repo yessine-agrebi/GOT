@@ -1,0 +1,67 @@
+body{
+    background:url("back2.png")
+    no-repeat fixed center;
+    background-size: 100%;
+    
+}
+h1{
+    font-size: bold;
+    color:  #FFF190;
+    white-space: nowrap;
+    animation: floatText 5s infinite alternate;   
+}
+
+@keyframes floatText {
+    from {
+        margin-left: 0%;
+        color: rgba(245, 32, 32, 0.822);
+    }
+    to {
+        margin-left: 80%;
+        color: rgb(220, 220, 255);
+    }
+}
+
+.imgs{
+    width: 317px;
+    height: 406px;
+    border: #B9540C solid 5px;
+    border-bottom-left-radius: 45%;
+    border-top-right-radius: 45%;
+    transition-duration: 2s;
+}
+.image{
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+#img1{
+    
+    transform: rotate(-35deg);
+}
+#img1:hover {
+    transform: scale(1.5);
+}
+#img2{
+   
+    transform: rotate(-33deg);
+}
+#img2:hover {
+    transform: scale(1.3);
+}
+#img3{
+   
+    transform: rotate(-34deg);
+}
+#img3:hover {
+    transform: scale(1.2);
+}
+.aud{
+    position: absolute;
+    top: 600px;
+    left: 40%;
+    
+   
+}
+
